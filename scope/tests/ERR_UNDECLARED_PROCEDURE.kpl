@@ -1,0 +1,4 @@
+Program TestErr; (* ERR_UNDECLARED_PROCEDURE *)
+Begin
+    Call PRINTC('c')
+End.

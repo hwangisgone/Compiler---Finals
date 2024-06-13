@@ -1,0 +1,9 @@
+PROGRAM TestErr; 
+(* ERR_TYPE_INCONSISTENCY *)
+(* Constant not integer *)
+
+CONST A = 'a';
+      B = -A;
+
+BEGIN
+END.

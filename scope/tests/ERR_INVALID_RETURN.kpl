@@ -1,0 +1,15 @@
+Program TestErr; (* ERR_INVALID_RETURN *)
+
+Function F(n : Integer) : Integer;
+  Begin
+    F := n * 2;
+  End;
+
+Function G(n : Integer) : Integer;
+  Begin
+    F := n + 1;
+  End;
+
+Begin
+	Call F(2);
+End.

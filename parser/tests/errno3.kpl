@@ -1,0 +1,13 @@
+PROGRAM Error3; 
+(* Invalid basic type *)
+
+PROCEDURE PLUSONE(i: INT);
+BEGIN
+  i := i + 1;
+  CALL WRITEI(i);
+END;
+	
+BEGIN
+	CALL PLUSONE(2);
+END.
+

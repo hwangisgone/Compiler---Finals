@@ -1,0 +1,5 @@
+Program TestErr; (* ERR_UNDECLARED_INT_CONSTANT *)
+Const B = 'c';
+      A = B;
+Begin
+End.

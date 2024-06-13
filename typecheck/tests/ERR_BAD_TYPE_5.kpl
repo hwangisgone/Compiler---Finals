@@ -1,0 +1,9 @@
+PROGRAM TestErr;
+(* ERR_TYPE_INCONSISTENCY *)
+(* Different types in comparison *)
+VAR a: CHAR;
+    
+BEGIN
+    IF a > 10 THEN
+        a := a - 10;
+END.

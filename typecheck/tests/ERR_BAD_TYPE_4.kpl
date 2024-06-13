@@ -1,0 +1,10 @@
+PROGRAM TestErr;
+(* ERR_TYPE_INCONSISTENCY *)
+(* FOR's variable type inconsistency *)
+VAR x: INTEGER;
+    i: INTEGER;
+    n: CHAR;
+BEGIN
+    FOR i := 1 TO n DO
+        x := x * 2;
+END.

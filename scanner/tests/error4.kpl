@@ -1,0 +1,4 @@
+Program Error4ButTheNameIsLong; 
+(* Really long name *)
+Begin
+End.

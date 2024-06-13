@@ -1,0 +1,6 @@
+1-1:KW_PROGRAM
+1-9:Identification too long!
+1-31:SB_SEMICOLON
+3-1:KW_BEGIN
+4-1:KW_END
+4-4:SB_PERIOD

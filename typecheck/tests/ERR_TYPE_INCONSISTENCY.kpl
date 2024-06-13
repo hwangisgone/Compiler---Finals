@@ -1,0 +1,12 @@
+PROGRAM TestErr; 
+(* ERR_TYPE_INCONSISTENCY *)
+(* Constant not integer *)
+
+Function F(n : Integer) : Integer;
+  Begin
+    F := 'n';
+  End;
+
+BEGIN
+  CALL WRITELN( F(1) );
+END.

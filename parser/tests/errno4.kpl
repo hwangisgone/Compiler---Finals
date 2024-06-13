@@ -1,0 +1,13 @@
+PROGRAM Error4; 
+(* Invalid param *)
+
+PROCEDURE PLUSONE(i : CHAR; >= : CHAR);
+BEGIN
+  i := i + 1;
+  CALL WRITEI(i);
+END;
+	
+BEGIN
+	CALL PLUSONE(2);
+END.
+

@@ -1,0 +1,4 @@
+Program TestErr; (* ERR_UNDECLARED_IDENT *)
+Begin
+    B := 10;
+End.

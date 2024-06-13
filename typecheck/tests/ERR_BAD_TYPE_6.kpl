@@ -1,0 +1,12 @@
+PROGRAM TestErr; 
+(* ERR_TYPE_INCONSISTENCY *)
+(* Different type in argument vs param *)
+
+FUNCTION F(n : INTEGER; p: INTEGER) : INTEGER;
+  BEGIN
+    F := n * p * n;
+  END;
+
+BEGIN
+  CALL WRITEI( F(10, 'a') );
+END.

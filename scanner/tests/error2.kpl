@@ -1,0 +1,14 @@
+Program Error2; 
+(* Invalid symbols: !, 🔥, $ *)
+(* The emoji is 4 bytes      *)
+   
+Var n : Integer;
+
+Begin 🔥
+  n := 10$;
+
+  If  n ! 0  Then
+    Begin
+      n := n + 2;
+    End
+End.

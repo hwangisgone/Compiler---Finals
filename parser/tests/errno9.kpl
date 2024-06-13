@@ -1,0 +1,9 @@
+PROGRAM Error9; 
+(* Invalid term *)
+
+VAR a: INTEGER;
+	
+BEGIN
+	IF a 10 > THEN
+		a := a - 10;
+END.

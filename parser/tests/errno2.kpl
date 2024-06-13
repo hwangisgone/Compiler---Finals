@@ -1,0 +1,13 @@
+PROGRAM Example1; 
+(* Invalid type *)
+TYPE IntType = INTEGER;
+     ArrType = ARRAY(.100.) OF CHAR;
+     ErrType = -INTEGER;
+
+VAR a: IntType;
+	b: ArrType;
+	c: ErrType;
+	
+BEGIN
+
+END.

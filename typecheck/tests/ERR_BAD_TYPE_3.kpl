@@ -1,0 +1,12 @@
+PROGRAM TestErr; 
+(* ERR_TYPE_INCONSISTENCY *)
+(* Assignment with wrong return type *)
+
+FUNCTION F(n : INTEGER) : INTEGER;
+  BEGIN
+    F := 'n';
+  END;
+
+BEGIN
+  CALL WRITELN( F(1) );
+END.

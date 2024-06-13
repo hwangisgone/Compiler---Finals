@@ -1,0 +1,12 @@
+Program Error3; (* *)
+   
+Var a : Char;
+    b : Char;
+    c : Char;
+    d : Char;
+Begin
+  a := ' A';
+  b := 'B;
+  c := '¥';
+  d := 'D';
+End.

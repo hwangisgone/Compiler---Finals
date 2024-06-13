@@ -1,0 +1,9 @@
+PROGRAM TestErr; 
+(* ERR_TYPE_INCONSISTENCY *)
+(* Assignment left != right *)
+
+VAR B: INTEGER;
+
+BEGIN
+  B := 'a';
+END.

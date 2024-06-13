@@ -1,0 +1,4 @@
+1-1:KW_PROGRAM
+1-9:TK_IDENT(Error1)
+1-15:SB_SEMICOLON
+3-5:End of comment expected!

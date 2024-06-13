@@ -1,0 +1,8 @@
+Program Example1; 
+(* Invalid constant *)
+Const MAX = =10;
+Const MIN = '?';
+
+Begin
+
+End.

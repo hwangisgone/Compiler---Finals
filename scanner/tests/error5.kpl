@@ -1,0 +1,8 @@
+Program Error5; 
+(* Long number *)
+   
+Var n : Integer;
+
+Begin
+  n := 123456789087654321;
+End.

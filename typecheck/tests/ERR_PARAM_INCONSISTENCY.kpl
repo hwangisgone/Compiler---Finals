@@ -1,0 +1,11 @@
+Program TestErr; 
+(* ERR_PARAMETERS_ARGUMENTS_INCONSISTENCY *)
+
+Function F(n : Integer; p : Integer) : Integer;
+  Begin
+    F := n;
+  End;
+
+Begin
+  Call WRITEI( F(2, 3, 4) );
+End.
